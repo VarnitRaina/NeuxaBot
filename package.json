@@ -1,0 +1,22 @@
+{
+  "name": "sociobot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "mongoose": "^8.17.2",
+    "openai": "^5.12.2",
+    "telegraf": "^4.16.3"
+  }
+}
