@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "express": "^5.1.0",
     "mongoose": "^8.17.2",
     "openai": "^5.12.2",
     "telegraf": "^4.16.3"
